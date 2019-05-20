@@ -1,0 +1,8 @@
+Version 1.0
+i) Intial version Release.
+
+Version 1.1
+i) Image license changed.
+
+Version 1.1.2
+i) Made some changes in readme file.
