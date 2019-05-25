@@ -4,7 +4,12 @@
  *
  * @package Campus Lite
  */
-
+//add_action("admin_init", "remove_theme_menus");
+function remove_theme_menus() {
+global $submenu;
+unset($submenu["themes.php"][5]);
+unset($submenu["themes.php"][15]);
+}
 if ( ! function_exists( 'campus_lite_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
