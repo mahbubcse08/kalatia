@@ -4,7 +4,7 @@
  *
  * @package Campus Lite
  */
-//add_action("admin_init", "remove_theme_menus");
+add_action("admin_init", "remove_theme_menus");
 function remove_theme_menus() {
 global $submenu;
 unset($submenu["themes.php"][5]);
