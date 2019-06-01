@@ -242,7 +242,7 @@ a.button{
 }
 .header {
     position: relative;
-    padding: 15px 0;
+    padding: 0px 0px;
     width: 100%;
     background-color: #ffffff;
 	border-bottom:1px solid #cccccc;
@@ -256,6 +256,8 @@ a.button{
 .header .header-inner .logo {
     margin: 0;
     padding: 0;
+	width: 60px !important;
+	height: 65px
 }
 .header .header-inner .logo h1 {
     font-weight: 700;
@@ -266,6 +268,7 @@ a.button{
 .header .header-inner .logo a {
     font-family: 'Karla', sans-serif;
 }
+
 .header .header-inner .logo p {
     font-size: 14px;
     font-family: 'PT Sans';
